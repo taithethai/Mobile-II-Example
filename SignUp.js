@@ -35,6 +35,9 @@ class SignUp extends React.Component {
         this.props.navigate('Test');
       });
     });
+    promise.catch((error) => {
+      console.log(error);
+    });
   }
 
   render() {

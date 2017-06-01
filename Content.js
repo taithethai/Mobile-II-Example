@@ -25,6 +25,8 @@ export default class Content extends React.Component {
         this.setState({
           users: ds.cloneWithRows(response.data),
         });
+      }).catch((error) => {
+        console.log(error);
       });
     });
   }

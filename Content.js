@@ -22,7 +22,6 @@ export default class Content extends React.Component {
         }
       }).then((response) => {
         const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-        console.log(response.data);
         this.setState({
           users: ds.cloneWithRows(response.data),
         });

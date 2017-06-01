@@ -4,7 +4,7 @@ import {
   View,
   AsyncStorage,
 } from 'react-native';
-import SignUp from './signup';
+import SignUp from './SignUp';
 import Content from './Content';
 import { StackNavigator } from 'react-navigation';
 

@@ -40,7 +40,7 @@ class SignUp extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Sign In</Text>
+        <Text>Sign Up</Text>
         <Text>{this.state.error && this.state.error.length ? this.state.error : null}</Text>
         <TextInput
           style={styles.textInput}

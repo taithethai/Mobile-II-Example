@@ -9,7 +9,6 @@ import {
   AsyncStorage
 } from 'react-native';
 import axios from 'axios';
-import { NativeRouter, Route, Link } from 'react-router-native';
 
 class SignUp extends React.Component {
   constructor(props) {

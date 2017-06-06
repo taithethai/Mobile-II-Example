@@ -19,7 +19,7 @@ class Home extends React.Component {
 
   componentWillMount() {
     AsyncStorage.getItem('token').then((token) => {
-      this.props.navigation.navigate('Content');
+      this.props.navigate('Content');
     });
   }
 
